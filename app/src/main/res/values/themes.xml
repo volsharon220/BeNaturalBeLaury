@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BeNaturalByLaury" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/vert</item>
+        <item name="colorPrimaryVariant">@color/limegreen</item>
+        <item name="android:statusBarColor">@color/limegreen</item>
+        <item name="colorOnPrimary">@color/snow</item>
+
+    </style>
+
+    <style name="Theme.BeNaturalByLaury" parent="Base.Theme.BeNaturalByLaury" />
+</resources>

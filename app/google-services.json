@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "81459609261",
+    "project_id": "benaturalbylaury",
+    "storage_bucket": "benaturalbylaury.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81459609261:android:e37795038d16b437f71024",
+        "android_client_info": {
+          "package_name": "com.example.benaturalbylaury"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzbA9AjYRot-jdJ0VjXhtoIStKmxxgXRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

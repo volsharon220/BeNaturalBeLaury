@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/commandes"
+        android:icon="@drawable/baseline_delivery_dining_24"
+        android:title="Commandes" />
+    <item
+        android:id="@+id/soins"
+        android:icon="@drawable/baseline_face_2_24"
+        android:title="Soins"/>
+    <item
+        android:id="@+id/rendez_vous"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="Rendez-vous" />
+    <item
+        android:id="@+id/parametre"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Paramètre" />
+    <item
+        android:id="@+id/rechercher"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Rechercher" />
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/baseline_account_2"
+        android:title="Profil" />
+    </group>
+</menu>
