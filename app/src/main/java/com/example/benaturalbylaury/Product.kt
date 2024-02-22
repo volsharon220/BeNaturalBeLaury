@@ -1,10 +1,7 @@
 package com.example.benaturalbylaury
 
-data class Produit(
+data class Product(
     val name: String,
-    val imageUrl: String,
     val description: String,
-    val price: Double,
-    val id: Int
+    val image: String
 )
-

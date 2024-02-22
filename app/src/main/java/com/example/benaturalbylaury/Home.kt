@@ -1,13 +1,9 @@
 package com.example.benaturalbylaury
 
-import android.app.Notification.Action
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Gravity
-import android.view.LayoutInflater
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -38,6 +34,7 @@ class Home : AppCompatActivity(),   NavigationView.OnNavigationItemSelectedListe
             when(item.itemId){
                R.id.bottom_home -> openFragment(HomeFragment())
                 R.id.bottom_search -> openFragment(SearchFragment())
+                R.id.bottom_shop-> openFragment(ShopFragment())
                 R.id.bottom_calendar -> openFragment(CalendarFragment())
 
             }
